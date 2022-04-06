@@ -1,4 +1,3 @@
-# Draw_n_Guess_Game
 # Draw & Guess - Game
 
 version (04.06.2022)
