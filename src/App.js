@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar.js";
 import Hero from "./components/hero/Hero.js";
 
 function App() {
+  
   return (
     <>
       <Navbar/>

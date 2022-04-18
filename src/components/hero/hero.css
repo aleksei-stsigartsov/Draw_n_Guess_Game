@@ -6,7 +6,7 @@
   background: url("https://media0.giphy.com/media/ckTEmM6DDogYknpvEs/giphy.gif?cid=ecf05e47a9fu3cu85u2b2kaytvbz26h6g7j9j66ab70ryevf&rid=giphy.gif&ct=g") top center no-repeat;
   background-size: cover;
   text-align: center;
-  padding-top: 9%;
+  padding-top: 15%;
 }
 
 #hero:before {
@@ -19,12 +19,6 @@
   text-align: center;
 }
 
-.blockhero {
-  z-index: 200;
-  display: block;
-}
-
-
 #hero h1 {
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -33,6 +27,41 @@
   color: #fff;
   line-height: 110px;
   text-align: center;
+}
+
+#hero h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin:0;
+}
+
+#hero p {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#hero .blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 23rem;
+}
+
+.something {
+  display: none;
+}
+
+.showI {
+  display: block;
 }
 
 #hero .input-get-started {
@@ -93,3 +122,4 @@
   background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
+
