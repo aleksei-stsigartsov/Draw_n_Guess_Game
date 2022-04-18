@@ -1,0 +1,1058 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+/* gamebox */
+
+#gamebox {
+    font-family: "Raleway", sans-serif;
+    background-color: transparent;
+    display: block;
+  }
+  #gameboxborder {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.541);
+    border: 2px solid #fff;
+    height: 565px;
+    max-width: 1000px;
+  }
+  
+  /* chatbox */
+  
+  #bodybox {
+    max-width: 500px;
+    font-family: "Raleway", sans-serif;
+    background-color: transparent;
+    display: block;
+  }
+  
+  #chatborder {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+  }
+  
+  .chatlog {
+    font-family: "Raleway", sans-serif;
+    color: white;
+  }
+  
+  .guessedtheword {
+    font-family: "Raleway", sans-serif;
+    color: white;
+  }
+  
+  
+  #chatbox {
+    font-family: "Raleway", sans-serif;
+    height: 40px;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-right: 10%;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+  }
+  
+  
+  /* width */
+  
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .buttons {
+    margin: 10%;
+    text-align: center;
+  }
+  
+  .btn-hover {
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    font-family: "Raleway", sans-serif;
+  
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:focus {
+    outline: none;
+  }
+  
+  .btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75); 
+  }
+  
+  
+  
+  /* hover btn */
+  
+  
+  
+  ::-webkit-scrollbar {
+    width:0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:  transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }
+  .layer {
+    overflow: scroll;
+    width: 300px;
+    padding: 5px;
+  
+  }
+  .aligncenter{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .superbtn{
+    border-radius: 3px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: #fff;
+    background: #d11718;
+  }
+  .superbtn:hover{
+    background: #ffffff;
+    color: black;
+  }
+  .superbtn2{
+    border-radius: 3px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 66px;
+    color: #fff;
+    background: #d11718;
+  }
+  .phone{
+    font-size: 22px;
+    font-weight: 100;
+    text-align: left;
+  }
+  
+  @media (max-width: 768px){
+    .superbtn2 {
+      margin-left: 0px;
+    }
+    .phone{
+      font-size: 18px;
+    }
+  
+  }
+  
+  .superbtn2:hover{
+    background: #ffffff;
+    color: black;
+    border-color: black;
+  }
+  .superbtngrp{
+    border-radius: 3px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 20px 50px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: #fff;
+    background: #d11718;
+  }
+  .superbtngrp:hover{
+    background: #ffffff;
+    color: black;
+  }
+  
+  table {
+    text-align: left;
+    border-collapse: separate;
+    background: transparent;
+    color: white;
+    border-spacing: 0px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 20px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+  }
+  th {
+    font-size: 18px;
+    padding: 10px;
+    letter-spacing: -1px;
+  }
+  td {
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  
+  .boardstyle1{
+    border-width: 1px 1px 0px 0px;
+    border-color: #e3e3e3;
+    border-style: solid;
+  }
+  .boardstyle2{
+    border-width: 1px 0px 0px 0px;
+    border-color: #e3e3e3;
+    border-style: solid;
+  }
+  .boardstyle3{
+    border-width: 1px 1px 0px 0px;
+    border-color: #e3e3e3;
+    border-style: solid;
+  }
+  .gradient {
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+  }
+  .gradient:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(to top, rgba(209,23,23,0.20), rgba(209,23,23,0.10));
+    opacity: 0.8;
+  }
+  .gradient2 {
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+  }
+  .gradient2:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .logoplus {
+    transition: 1s; /* Время эффекта */
+  }
+  .logoplus:hover {
+    transform: scale(1.1);
+  }
+  .logoplus2 {
+    transition: 800ms; /* Время эффекта */
+  }
+  .logoplus2:hover {
+    transform: scale(1.1);
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /*--------------------------------------------------------------
+  # Back to top button
+  --------------------------------------------------------------*/
+  .back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+  }
+  
+  .back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: white;
+    color: black;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i:hover {
+    background: #adadad;
+    color: black;
+  }
+  
+  /*--------------------------------------------------------------
+  # Disable aos animation delay on mobile devices
+  --------------------------------------------------------------*/
+  @media screen and (max-width: 768px) {
+    [data-aos-delay] {
+      transition-delay: 0s !important;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  /* Desktop Navigation */
+  .nav-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu > ul {
+    display: flex;
+  }
+  
+  .nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+    padding: 10px 0 10px 28px;
+  }
+  
+  .nav-menu a {
+    display: block;
+    position: relative;
+    color: white;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    color: #adadad;
+  }
+  
+  .nav-menu .drop-down ul {
+    display: block;
+    position: absolute;
+    left: 14px;
+    top: calc(100% + 30px);
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px 0;
+    background:#222222;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+  }
+  
+  .nav-menu .drop-down:hover > ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+  
+  .nav-menu .drop-down li {
+    min-width: 180px;
+    position: relative;
+  }
+  
+  .nav-menu .drop-down ul a {
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: none;
+  }
+  
+  .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+    color: #e03a3c;
+  }
+  
+  .nav-menu .drop-down > a:after {
+    content: "\ea99";
+    font-family: IcoFont;
+    padding-left: 5px;
+  }
+  
+  .nav-menu .drop-down .drop-down ul {
+    top: 0;
+    left: calc(100% - 30px);
+  }
+  
+  .nav-menu .drop-down .drop-down:hover > ul {
+    opacity: 1;
+    top: 0;
+    left: 100%;
+  }
+  
+  .nav-menu .drop-down .drop-down > a {
+    padding-right: 35px;
+  }
+  
+  .nav-menu .drop-down .drop-down > a:after {
+    content: "\eaa0";
+    font-family: IcoFont;
+    position: absolute;
+    right: 15px;
+  }
+  
+  @media (max-width: 1366px) {
+    .nav-menu .drop-down .drop-down ul {
+      left: -90%;
+    }
+    .nav-menu .drop-down .drop-down:hover > ul {
+      left: -100%;
+    }
+    .nav-menu .drop-down .drop-down > a:after {
+      content: "\ea9d";
+    }
+    .nav-menu a {
+      color:#222222;
+    }
+    .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+      color: #222222;
+    }
+  
+  }
+  
+  /* Get Started Button */
+  .get-started-btn {
+    margin-left: 25px;
+    background: black;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+  }
+  
+  .get-started-btn:hover {
+    background: #111111;
+    color: #fff;
+  }
+  
+  @media (max-width: 992px) {
+    .get-started-btn {
+      margin: 0 48px 0 0;
+      padding: 6px 18px;
+    }
+  }
+  
+  /* Mobile Navigation */
+  .mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+  }
+  
+  .mobile-nav-toggle i {
+    color: #ffffff;
+  }
+  
+  .mobile-nav {
+    position: fixed;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    z-index: 9999;
+    overflow-y: auto;
+    background: #222222;
+    transition: ease-in-out 0.2s;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 10px;
+    padding: 10px 0;
+  }
+  
+  .mobile-nav * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .mobile-nav a {
+    display: block;
+    position: relative;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+    color: #adadad;
+    text-decoration: none;
+  }
+  
+  .mobile-nav .drop-down > a:after {
+    content: "\ea99";
+    font-family: IcoFont;
+    padding-left: 10px;
+    position: absolute;
+    right: 15px;
+  }
+  
+  .mobile-nav .active.drop-down > a:after {
+    content: "\eaa1";
+  }
+  
+  .mobile-nav .drop-down > a {
+    padding-right: 35px;
+  }
+  
+  .mobile-nav .drop-down ul {
+    display: none;
+    overflow: hidden;
+  }
+  
+  .mobile-nav .drop-down li {
+    padding-left: 20px;
+  }
+  
+  .mobile-nav-overly {
+    width: 100%;
+    height: 100%;
+    z-index: 9997;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    display: none;
+    transition: ease-in-out 0.2s;
+  }
+  
+  .mobile-nav-active {
+    overflow: hidden;
+  }
+  
+  .mobile-nav-active .mobile-nav {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .mobile-nav-active .mobile-nav-toggle i {
+    color: #fff;
+  }
+  
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    padding-top: 82px;
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    margin: 0;
+    font-size:100px;
+    font-weight: 650;
+    color: #fff;
+    line-height: 110px;
+  }
+  
+  #hero h2 {
+    color: #e03a3c;
+    margin: 0px 0 0 0;
+    font-size: 90px;
+  
+  }
+  
+  #hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 20px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+  }
+  #hero_contacts2 .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 20px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+  }
+  .soption{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: lightskyblue;
+    width: fit-content;
+  }
+  #hero .input-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25%;
+    padding-right: 20%;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+  }
+  #hero_contacts2 .input-get-started{
+    width: 500px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color:white;
+    background: transparent;
+    border: 2px solid #fff;
+  }
+  
+  @media (max-width: 700px) {
+    #hero_contacts2 .input-get-started{
+    width: 350px;
+    }
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #222222;
+    border-color: #fff;
+  }
+  #hero_contacts2 .btn-get-started:hover {
+    background: #222222;
+    border-color: #fff;
+  }
+  
+  @media (max-width: 800px) {
+    #hero {
+      text-align: center;
+      padding-top: 58px;
+    }
+  
+    #hero h1 {
+      font-size: 60px;
+      line-height: 80px;
+    }
+  
+    #hero h2 {
+      font-size: 535px;
+      line-height: 50px;
+    }
+  
+    #hero_contacts {
+      text-align: center;
+      padding-top: 0px;
+    }
+  
+    #hero_contacts h1 {
+      font-size: 90px;
+      line-height: 80px;
+    }
+  
+    #hero_contacts h2 {
+      font-size: 50px;
+      line-height: 60px;
+      text-align: left;
+    }
+    #hero .input-get-started {
+      font-family: "Raleway", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 40px;
+      border-radius: 4px;
+      transition: 0.5s;
+      margin-top: 20px;
+      color: #fff;
+      background: transparent;
+      border: 2px solid #fff;
+    }
+  }
+  
+  
+  @media (max-height: 900px) {
+    #hero {
+      height: 120vh;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # Hero2 Section
+  --------------------------------------------------------------*/
+  
+  #hero2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #222222;
+    position: relative;
+    padding-top: 82px;
+  }
+  @media  (max-width: 992px) {
+    #hero2 {
+      width: 100%;
+      height: 80vh;
+      background-color: #222222;
+      position: relative;
+      padding-top: 82px;
+    }
+  }
+  
+  #hero2:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+  }
+  
+  #hero2 h1 {
+    margin: 0;
+    font-size:150px;
+    font-weight: 650;
+    color: #fff;
+    line-height: 110px;
+  }
+  
+  #hero2 h3 {
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-left: 40%;
+    font-weight: 600;
+    margin-bottom: 100px;
+    color: #fff;
+  }
+  .error{
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-left: 50%;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  #hero2 pre {
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-align: right;
+    margin-right: -45%;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    overflow: visible;
+  }
+  
+  
+  
+  #hero2 .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: 0.5s;
+    margin-top: 20%;
+    margin-left: 90%;
+    margin-right: 0px;
+    border-radius: 3px;
+    color: #fff;
+    background: #d11717;
+  }
+  
+  
+  #hero2 .img1{
+    margin-top: -10%;
+    height: 30%;
+  }
+  #hero2 .img2{
+    margin-top: -150%;
+    height: 23%;
+  }
+  #hero2 .img3{
+    margin-top: 30%
+  }
+  
+  #hero2 .btn-get-started:hover {
+    background: #fff;
+    color: black;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 800px) {
+    #hero2 {
+      text-align: center;
+      padding-top: 58px;
+    }
+    #hero2 h1 {
+      font-size: 90px;
+      line-height: 80px;
+    }
+    #hero2 h2 {
+      font-size: 50px;
+      line-height: 50px;
+      margin-left: 0%;
+    }
+    #hero2 .btn-get-started {
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      letter-spacing: 1px;
+      display: inline-block;
+      transition: 0.5s;
+      margin-top: 100%;
+      margin-left: 40%;
+      margin-right: 30px;
+      border-radius: 3px;
+      color: #fff;
+      background: #d11717;
+      padding: 10px 30px;
+    }
+    #hero2 .img1{
+      margin-top: -10%;
+      height: 215px;
+    }
+    #hero2 .img2{
+      margin-top: -150%;
+      height: 0px;
+    }
+    #hero2 .booK{
+      margin-top: -20%;
+      margin-left:  -20%;
+      text-align: center;
+    }
+    #hero2 .booK pre{
+      letter-spacing: 2px;
+      font-size: 12px;
+      margin-left: -100%;
+      font-weight: 100;
+      margin-bottom: 100px;
+      color: #fff;
+      overflow: visible;
+      margin-top: 30%;
+    }
+    #hero2 h3 {
+      letter-spacing: 2px;
+      font-size: 40px;
+      margin-left: 0%;
+      font-weight: 600;
+      margin-bottom: 100px;
+      color: #fff;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #e03a3c;
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+  
+  .section-bg {
+    padding: 120px 0;
+    color: #fff;
+  }
+  
+  .section-bg:before {
+    content: "";
+    background: #222222;
+    position: absolute;
+    bottom: 60px;
+    top: 60px;
+    left: 0;
+    right: 0;
+    transform: skewY(-3deg);
+  }
+  
+  .section-bg25 {
+    padding: 140px 0;
+    color: #222222;
+  }
+  
+  .section-bg25:before {
+    content: "";
+    background: #222222;
+  }
+  
+  
